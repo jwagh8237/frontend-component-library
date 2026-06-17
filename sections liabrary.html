@@ -1,0 +1,4014 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>frontend liabrary</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="sections.css" rel="stylesheet">
+        <script src="sections.js" defer></script>
+    </head>
+    <body>
+
+    <!-- navigation -->
+        <nav class="navbar">
+
+            <a href="#hero" class="logo">JVW</a>
+
+            <div class="menu-btn" id="menuBtn">
+                ☰
+            </div>
+
+            <div class="nav-links" id="navLinks">
+
+                <div class="nav-1"><a href="#navbar1" class="navcomp">Navbar</a>
+                    <div class="drop-1">
+                        <a href="#navbar1">navbar-1</a>
+                        <a href="#navbar2">navbar-2</a>
+                        <a href="#navbar3">navbar-3</a>
+                    </div>
+                </div>
+
+                <div class="nav-2"><a href="#hero1" class="navcomp">Hero</a>
+                    <div class="drop-2">
+                        <a href="#hero1">hero-1</a>
+                        <a href="#hero2">hero-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-3"><a href="#services1" class="navcomp">Services</a>
+                    <div class="drop-3">
+                        <a href="#services1">services-1</a>
+                        <a href="#services2">services-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-4"><a href="#features1" class="navcomp">Features</a>
+                    <div class="drop-4">
+                        <a href="#features1">features-1</a>
+                        <a href="#features2">features-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-5"><a href="#contact1" class="navcomp">Contact</a>
+                    <div class="drop-5">
+                        <a href="#contact1">contact-1</a>
+                        <a href="#contact2">contact-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-6"><a href="#blog1" class="navcomp">Blog</a>
+                    <div class="drop-6">
+                        <a href="#blog1">blog-1</a>
+                        <a href="#blog2">blog-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-7"><a href="#cta1" class="navcomp">CTA</a>
+                    <div class="drop-7">
+                        <a href="#cta1">cta-1</a>
+                        <a href="#cta2">cta-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-8"><a href="#footer1" class="navcomp">Footer</a>
+                    <div class="drop-8">
+                        <a href="#footer1">footer-1</a>
+                        <a href="#footer2">footer-2</a>
+                    </div>
+                </div>
+
+                <div class="nav-9"><a href="#testimonals" class="navcomp">Other</a>
+                    <div class="drop-9">
+                        <a href="#testimonals">testimonals</a>
+                        <a href="#faq">faq</a>
+                        <a href="#pricing">pricing</a>
+                        <a href="#statistics">stats</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="nav-btns">
+                <a href="#footer" id="btn"><button class="nav-btn">contact</button></a>
+                <button id="theme-toggle" class="nav-btn">Dark Mode</button>
+            </div>
+        </nav>
+
+
+
+    <!-- hero section -->
+        <section class="hero" id="hero">
+            <div class="hero-container" id="heroContent">
+                <h1>Frontend Component Library</h1>
+                <p>
+                    50+ reusable components and section variants
+                    built with HTML, CSS and JavaScript. <br>
+                    HTML • CSS • JS
+                </p>
+
+
+                <div class="hero-buttons">
+                    <a href="#navbar1" class="btn btn-primary">Explore Library</a>
+                    <a href="https://github.com/jwagh8237" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- statistics -->
+        <section class="statistics">
+            <div class="statistics-container">
+
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Components</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Layouts</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Responsive</div>
+                </div>
+
+            </div>
+        </section>
+                    
+
+
+    <!-- sections start -->
+
+    
+         <!-- navbar-1 -->
+        <section class="container" id="navbar1" >
+            <h2 class="title">navbar-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\11 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\11 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\11 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/4</h5><img src="images\11 (4).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+
+
+            <div class="code">
+                <h3>html</h3> <br><p>navbar-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;nav class="navbar"&gt;
+
+    &lt;a href="#" class="logo"&gt;Brand &lt;/a&gt;
+
+    &lt;div class="menu-btn" id="menuBtn"&gt;
+        ☰
+    &lt;/div&gt;
+
+    &lt;div class="nav-links" id="navLinks"&gt;
+        &lt;a href="#"&gt;Home&lt;/a&gt;
+        &lt;a href="#"&gt;Features&lt;/a&gt;
+        &lt;a href="#"&gt;Pricing&lt;/a&gt;
+        &lt;a href="#"&gt;Contact&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;a href="#" class="nav-btn"&gt;Get Started&lt;/a&gt;
+
+&lt;/nav&gt; 
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3> <br><p>navbar-1</p>
+                <div class="copy-container">
+                    <pre>
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 5%;
+    background:#fff;
+    border-bottom:1px solid #ddd;
+    position:relative;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#111;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    position:relative;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#000;
+}
+
+.nav-links a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0;
+    height:2px;
+    background:#111;
+    transition:0.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}
+
+.nav-btn{
+    padding:10px 18px;
+    background:#111;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.nav-btn:hover{
+    background:#333;
+    transform:translateY(-2px);
+}
+
+/* Hamburger */
+
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+    user-select:none;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    .nav-btn{
+        display:none;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        background:#fff;
+        flex-direction:column;
+        align-items:center;
+
+        height:0;
+        overflow:hidden;
+        padding:0;
+
+        transition:0.4s;
+    }
+
+    .nav-links.active{
+        height:180px;
+        padding:20px 0;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>javascript</h3><br><p>navbar-1</p>
+                <div class="copy-container">
+                    <pre>
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+
+    menuBtn.textContent =
+        navLinks.classList.contains("active") ? "✕" : "☰";
+});
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- navbar-2 -->
+        <section class="container" id="navbar2" >
+            <h2 class="title">navbar-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\12 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\12 (2).png" style="width:100%"></div>
+
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\12 (3).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3> <br><p>navbar-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;nav class="navbar"&gt;
+
+    &lt;div class="left"&gt;
+        &lt;a href="#" class="logo"&gt;Brand&lt;/a&gt;
+
+        &lt;div class="menu-btn" id="menuBtn"&gt;
+            ☰
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="links" id="navLinks"&gt;
+        &lt;a href="#"&gt;Product&lt;/a&gt;
+        &lt;a href="#"&gt;Features&lt;/a&gt;
+        &lt;a href="#"&gt;Docs&lt;/a&gt;
+        &lt;a href="#"&gt;Pricing&lt;/a&gt;
+    &lt;/div>
+
+    &lt;div class="right" id="navButtons"&gt;
+        &lt;a href="#" class="login"&gt;Login&lt;/a&gt;
+        &lt;a href="#" class="signup"&gt;Sign Up&lt;/a&gt;
+    &lt;/div&gt;
+
+&lt;/nav&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3> <br><p>navbar-2</p>
+                <div class="copy-container">
+                    <pre>
+                        
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 5%;
+    border-bottom:1px solid #ddd;
+    position:relative;
+}
+
+.left{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#111;
+}
+
+.links{
+    display:flex;
+    gap:25px;
+}
+
+.links a{
+    text-decoration:none;
+    color:#555;
+    transition:0.3s;
+}
+
+.links a:hover{
+    color:#000;
+}
+
+.right{
+    display:flex;
+    gap:12px;
+}
+
+.login{
+    text-decoration:none;
+    color:#111;
+    padding:10px 18px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.login:hover{
+    background:#f1f1f1;
+}
+
+.signup{
+    background:#111;
+    color:white;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.signup:hover{
+    opacity:0.85;
+}
+
+/* Hamburger */
+.menu-btn{
+    display:none;
+    flex-direction:column;
+    gap:5px;
+    cursor:pointer;
+}
+
+.menu-btn span{
+    width:25px;
+    height:3px;
+    background:#111;
+    border-radius:5px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .left{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .menu-btn{
+        display:block;
+        font-size:28px;
+        cursor:pointer;
+    }
+
+    .links,
+    .right{
+        display:none;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .links a,
+    .login,
+    .signup{
+        padding:15px;
+        width:100%;
+        text-align:center;
+    }
+
+    .links.active,
+    .right.active{
+        display:flex;
+    }
+}
+
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>javascript</h3> <br><p>navbar-2</p>
+                <div class="copy-container">
+                    <pre>
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+const navButtons = document.getElementById("navButtons");
+
+menuBtn.addEventListener("click", () => {
+
+    navLinks.classList.toggle("active");
+    navButtons.classList.toggle("active");
+
+    menuBtn.textContent =
+        navLinks.classList.contains("active")
+        ? "✕"
+        : "☰";
+});
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+         <!-- navbar-3 -->
+        <section class="container" id="navbar3" >
+            <h2 class="title">navbar-3</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\13 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\13 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\13 (3).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>navbar-3</p>
+                <div class="copy-container">
+                    <pre>
+&lt;nav class="navbar"&gt;
+
+    &lt;a href="#" class="logo"&gt;Store&lt;/a&gt;
+
+    &lt;div class="menu-btn" id="menuBtn"&gt;
+        ☰
+    &lt;/div&gt;
+
+    &lt;input
+        type="text"
+        placeholder="Search products..."
+        class="search"
+    &gt;
+
+    &lt;div class="actions" id="navLinks"&gt;
+        &lt;a href="#"&gt;Account&lt;/a&gt;
+        &lt;a href="#"&gt;Wishlist&lt;/a&gt;
+        &lt;a href="#"&gt;Cart&lt;/a&gt;
+    &lt;/div&gt;
+
+&lt;/nav&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>navbar-3</p>
+                <div class="copy-container">
+                    <pre>
+                        
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 5%;
+    border-bottom:1px solid #ddd;
+    position:relative;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#111;
+}
+
+.search{
+    width:400px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+}
+
+.search:focus{
+    border-color:#000;
+}
+
+.actions{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+
+.actions a{
+    text-decoration:none;
+    color:#111;
+    transition:0.3s;
+}
+
+.actions a:hover{
+    color:#007bff;
+}
+
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+    .navbar{
+        flex-wrap:wrap;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .search{
+        width:100%;
+        margin-top:15px;
+        order:3;
+    }
+
+    .actions{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        margin-top:15px;
+        gap:15px;
+        text-align:center;
+    }
+
+    .actions.active{
+        display:flex;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>javascript</h3><br><p>navbar-3</p>
+                <div class="copy-container">
+                    <pre>
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+
+    if(menuBtn.innerHTML === "✖"){
+        menuBtn.innerHTML = "☰";
+    }else{
+        menuBtn.innerHTML = "✖";
+    }
+});
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+         <!-- hero-1 -->
+        <section class="container" id="hero1" >
+            <h2 class="title">hero-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\14 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\14 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\14 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/4</h5><img src="images\14 (4).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>hero-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="hero"&gt;
+    &lt;div class="hero-container"&gt;
+
+        &lt;div class="hero-content"&gt;
+            &lt;h1&gt;Build Better Websites Faster&lt;/h1&gt;
+
+            &lt;p&gt;
+                Create modern digital experiences with clean design,
+                powerful features and scalable solutions.
+            &lt;/p&gt;
+
+            &lt;div class="hero-buttons"&gt;
+                &lt;a href="#" class="btn btn-primary"&gt;Get Started&lt;/a&gt;
+                &lt;a href="#" class="btn btn-secondary"&gt;Learn More&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="hero-image"&gt;
+            &lt;img src="https://via.placeholder.com/600x400" alt=""&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>hero-1</p>
+                <div class="copy-container">
+                    <pre>
+
+.hero-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-content h1{
+    font-size:56px;
+    margin-bottom:20px;
+    line-height:1.1;
+}
+
+.hero-content p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:30px;
+    line-height:1.7;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.btn{
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:6px;
+    display:inline-block;
+}
+
+.btn-primary{
+    background:rgb(51, 51, 51);
+    color:white;
+    transition: 0.4s;
+}
+.btn-primary:hover{
+    background:black;
+    transform: translateY(-2px);
+}
+
+.btn-secondary{
+    border:1px solid #ddd;
+    color:black;
+    transition: 0.4s;
+}
+.btn-secondary:hover{
+    background:lightgrey;
+    transform: translateY(-1px);
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+}
+/* ==========================
+   Large Screens (1400px+)
+========================== */
+@media (min-width: 1400px) {
+    .hero-container {
+        max-width: 1400px;
+    }
+
+    .hero-content h1 {
+        font-size: 68px;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+    }
+}
+
+/* ==========================
+   Laptops & Small Desktops
+========================== */
+@media (max-width: 1200px) {
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .hero-container {
+        gap: 40px;
+    }
+}
+
+/* ==========================
+   Tablets
+========================== */
+@media (max-width: 992px) {
+
+    .hero {
+        padding: 70px 5%;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 700px;
+    }
+}
+
+/* ==========================
+   Large Mobile Devices
+========================== */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 60px 5%;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 13px 24px;
+    }
+
+    .hero-image img {
+        border-radius: 10px;
+    }
+}
+
+/* ==========================
+   Small Mobile Devices
+========================== */
+@media (max-width: 576px) {
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 14px;
+    }
+
+    .hero-container {
+        gap: 30px;
+    }
+}
+
+/* ==========================
+   Extra Small Devices
+========================== */
+@media (max-width: 380px) {
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+   
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- hero-2 -->
+        <section class="container" id="hero2" >
+            <h2 class="title">hero-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/3</h5><img src="images\15 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/3</h5><img src="images\15 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/3</h5><img src="images\15 (3).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>hero-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="hero"&gt;
+
+    &lt;div class="hero-container" id="heroContent"&gt;
+
+        &lt;h1&gt;Launch Your Next Big Idea&lt;/h1&gt;
+
+        &lt;p&gt;
+            Build products, grow your audience and scale your business
+            with a modern digital presence.
+        &lt;/p&gt;
+
+        &lt;div class="hero-buttons"&gt;
+            &lt;a href="#" class="btn btn-primary"&gt;Start Now&lt;/a&gt;
+            &lt;a href="#" class="btn btn-secondary"&gt;View Demo&lt;/a&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>hero-2</p>
+                <div class="copy-container">
+                    <pre>
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:100px 5%;
+    background:linear-gradient(135deg,#f5f7fa,#e4ecff);
+    overflow:hidden;
+}
+
+.hero-container{
+    max-width:800px;
+    margin:auto;
+    transition:transform 0.2s ease;
+    animation:fadeUp 1s ease forwards;
+}
+
+.hero h1{
+    font-size:64px;
+    margin-bottom:20px;
+    line-height:1.1;
+}
+
+.hero p{
+    font-size:18px;
+    color:#555;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:8px;
+    display:inline-block;
+    transition:all 0.3s ease;
+    font-weight:bold;
+}
+
+.btn-primary{
+    background:black;
+    color:white;
+}
+
+.btn-primary:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn-secondary{
+    border:1px solid #ddd;
+    color:black;
+    background:white;
+}
+
+.btn-secondary:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Animations */
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+}
+
+/* Tablet */
+
+@media (max-width:768px){
+
+    .hero{
+        padding:80px 5%;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero p{
+        font-size:15px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .btn{
+        width:220px;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- services-1 -->
+        <section class="container" id="services1" >
+            <h2 class="title">services-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/5</h5><img src="images\16 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/5</h5><img src="images\16 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/5</h5><img src="images\16 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/5</h5><img src="images\16 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/5</h5><img src="images\16 (5).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>services-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="services"&gt;
+    
+    &lt;div class="section-title"&gt;
+        &lt;h2&gt;Our Services&lt;/h2&gt;
+        &lt;p&gt;Solutions designed to help your business grow.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="service-grid"&gt;
+
+        &lt;div class="service-card"&gt;
+            &lt;div class="icon"&gt;💻&lt;/div&gt;
+            &lt;h3&gt;Web Development&lt;/h3&gt;
+            &lt;p&gt;Modern websites and web applications built for performance and scalability.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="service-card"&gt;
+            &lt;div class="icon"&gt;📱&lt;/div&gt;
+            &lt;h3&gt;App Development&lt;/h3&gt;
+            &lt;p&gt;Cross-platform mobile applications for Android and iOS.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="service-card"&gt;
+            &lt;div class="icon"&gt;🎨&lt;/div&gt;
+            &lt;h3&gt;UI/UX Design&lt;/h3&gt;
+            &lt;p&gt;Clean and intuitive interfaces focused on user experience.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="service-card"&gt;
+            &lt;div class="icon"&gt;📈&lt;/div&gt;
+            &lt;h3&gt;Digital Marketing&lt;/h3&gt;
+            &lt;p&gt;Strategies to increase traffic, conversions, and business growth.&lt;/p&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>services-1</p>
+                <div class="copy-container">
+                    <pre>
+
+.services{
+    padding:80px 5%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#666;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:24px;
+}
+
+.service-card{
+    border:1px solid #ddd;
+    padding:30px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-5px);
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.service-card h3{
+    margin-bottom:12px;
+}
+
+.service-card p{
+    color:#666;
+    line-height:1.6;
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- services-2 -->
+        <section class="container" id="services2" >
+            <h2 class="title">services-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/3</h5><img src="images\17 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/3</h5><img src="images\17 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/3</h5><img src="images\17 (3).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>services-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="services"&gt;
+
+    &lt;div class="section-title"&gt;
+        &lt;h2&gt;Our Services&lt;/h2&gt;
+        &lt;p&gt;Professional solutions tailored to your needs.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="service-list"&gt;
+
+        &lt;div class="service-item"&gt;
+            &lt;div class="icon"&gt;💻&lt;/div&gt;
+            &lt;div class="content"&gt;
+                &lt;h3&gt;Web Development&lt;/h3&gt;
+                &lt;p&gt;Custom websites and web applications built with modern technologies and best practices.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="service-item"&gt;
+            &lt;div class="icon"&gt;📱&lt;/div&gt;
+            &lt;div class="content"&gt;
+                &lt;h3&gt;Mobile Applications&lt;/h3&gt;
+                &lt;p&gt;High-performance mobile solutions designed for both Android and iOS platforms.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="service-item"&gt;
+            &lt;div class="icon"&gt;🎨&lt;/div&gt;
+            &lt;div class="content"&gt;
+                &lt;h3&gt;UI/UX Design&lt;/h3&gt;
+                &lt;p&gt;User-focused interfaces that improve engagement and create better experiences.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="service-item"&gt;
+            &lt;div class="icon"&gt;📈&lt;/div&gt;
+            &lt;div class="content"&gt;
+                &lt;h3&gt;Marketing Strategy&lt;/h3&gt;
+                &lt;p&gt;Data-driven marketing campaigns to help your business reach more customers.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>services-2</p>
+                <div class="copy-container">
+                    <pre>
+
+.services{
+    padding:80px 5%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#666;
+}
+
+.service-list{
+    max-width:900px;
+    margin:auto;
+}
+
+.service-item{
+    display:flex;
+    gap:20px;
+    padding:25px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.service-item:last-child{
+    border-bottom:none;
+}
+
+.icon{
+    font-size:32px;
+    flex-shrink:0;
+}
+
+.content h3{
+    margin-bottom:10px;
+}
+
+.content p{
+    color:#666;
+    line-height:1.6;
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- features-1 -->
+        <section class="container" id="features1" >
+            <h2 class="title">features-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/5</h5><img src="images\18 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/5</h5><img src="images\18 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/5</h5><img src="images\18 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/5</h5><img src="images\18 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/5</h5><img src="images\18 (5).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>features-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="features"&gt;
+
+    &lt;div class="section-header"&gt;
+        &lt;h2&gt;Powerful Features&lt;/h2&gt;
+        &lt;p&gt;Designed to help your business succeed.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="feature"&gt;
+
+        &lt;div class="feature-content"&gt;
+            &lt;h3&gt;Manage Everything Easily&lt;/h3&gt;
+            &lt;p&gt;
+                Control your workflow from one simple dashboard
+                and improve productivity.
+            &lt;/p&gt;
+            &lt;a href="#" class="btn"&gt;Learn More&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="feature-image"&gt;
+            &lt;img src="https://picsum.photos/600/400" alt=""&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class="feature reverse"&gt;
+
+        &lt;div class="feature-content"&gt;
+            &lt;h3&gt;Real-Time Analytics&lt;/h3&gt;
+            &lt;p&gt;
+                Track performance metrics and make
+                data-driven decisions with confidence.
+            &lt;/p&gt;
+            &lt;a href="#" class="btn"&gt;Learn More&lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class="feature-image"&gt;
+            &lt;img src="https://picsum.photos/601/400" alt=""&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>features-1</p>
+                <div class="copy-container">
+                    <pre>
+
+
+.features{
+    padding:80px 5%;
+}
+
+.section-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-header h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.section-header p{
+    color:#666;
+}
+
+.feature{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    margin-bottom:80px;
+}
+
+.feature.reverse{
+    flex-direction:row-reverse;
+}
+
+.feature-image{
+    flex:1;
+}
+
+.feature-image img{
+    width:100%;
+    display:block;
+    border-radius:10px;
+}
+
+.feature-content{
+    flex:1;
+}
+
+.feature-content h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.feature-content p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 24px;
+    border:1px solid #000;
+    text-decoration:none;
+    color:#000;
+}
+@media (max-width: 768px) {
+
+    .features{
+        padding: 60px 5%;
+    }
+
+    .section-header{
+        margin-bottom: 40px;
+    }
+
+    .section-header h2{
+        font-size: 28px;
+    }
+
+    .feature,
+    .feature.reverse{
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .feature-content{
+        text-align: center;
+    }
+
+    .feature-content h3{
+        font-size: 24px;
+    }
+
+    .feature-content p{
+        font-size: 16px;
+    }
+
+    .feature-image,
+    .feature-content{
+        width: 100%;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- features-2 -->
+        <section class="container" id="features2" >
+            <h2 class="title">features-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/5</h5><img src="images\19 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/5</h5><img src="images\19 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/5</h5><img src="images\19 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/5</h5><img src="images\19 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/5</h5><img src="images\19 (5).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>features-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="features"&gt;
+
+    &lt;div class="section-header"&gt;
+        &lt;h2&gt;Our Features&lt;/h2&gt;
+        &lt;p&gt;Everything you need to grow your business.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="feature-grid"&gt;
+
+        &lt;div class="feature-card"&gt;
+            &lt;div class="icon"&gt;⚡&lt;/div&gt;
+            &lt;h3&gt;Fast Performance&lt;/h3&gt;
+            &lt;p&gt;
+                Optimized solutions that deliver speed and reliability.
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="feature-card"&gt;
+            &lt;div class="icon"&gt;🔒&lt;/div&gt;
+            &lt;h3&gt;Secure Platform&lt;/h3&gt;
+            &lt;p&gt;
+                Enterprise-grade security for complete peace of mind.
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="feature-card"&gt;
+            &lt;div class="icon"&gt;📈&lt;/div&gt;
+            &lt;h3&gt;Easy Growth&lt;/h3&gt;
+            &lt;p&gt;
+                Scale your business without technical limitations.
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>features-2</p>
+                <div class="copy-container">
+                    <pre>
+
+.features{
+    padding:80px 5%;
+}
+
+.section-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-header h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.section-header p{
+    color:#666;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.feature-card{
+    padding:30px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.feature-card h3{
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+
+/* Tablet */
+@media (max-width: 992px) {
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-header h2 {
+        font-size: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .features {
+        padding: 60px 5%;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header h2 {
+        font-size: 26px;
+    }
+
+    .feature-card {
+        padding: 25px;
+    }
+
+    .icon {
+        font-size: 32px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .section-header h2 {
+        font-size: 22px;
+    }
+
+    .section-header p,
+    .feature-card p {
+        font-size: 14px;
+    }
+
+    .feature-card {
+        padding: 20px;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- contact-1 -->
+        <section class="container" id="contact1" >
+            <h2 class="title">contact-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/6</h5><img src="images\20 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/6</h5><img src="images\20 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/6</h5><img src="images\20 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/6</h5><img src="images\20 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/6</h5><img src="images\20 (5).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>6/6</h5><img src="images\20 (6).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>contact-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="contact"&gt;
+    &lt;div class="contact-container"&gt;
+
+        &lt;div class="contact-info"&gt;
+            &lt;h2&gt;Get In Touch&lt;/h2&gt;
+
+            &lt;p&gt;
+                Have a project in mind? Send us a message and
+                we'll get back to you as soon as possible.
+            &lt;/p&gt;
+
+            &lt;div class="info-item"&gt;
+                &lt;strong&gt;Email&lt;/strong&gt;
+                hello@example.com
+            &lt;/div&gt;
+
+            &lt;div class="info-item"&gt;
+                &lt;strong&gt;Phone&lt;/strong&gt;
+                +91 98765 43210
+            &lt;/div&gt;
+
+            &lt;div class="info-item"&gt;
+                &lt;strong&gt;Address&lt;/strong&gt;
+                Pune, Maharashtra, India
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="contact-form"&gt;
+            &lt;h2&gt;Send Message&lt;/h2&gt;
+
+            &lt;form&gt;
+                &lt;input type="text" placeholder="Your Name"&gt;
+                &lt;input type="email" placeholder="Your Email"&gt;
+                &lt;input type="text" placeholder="Subject"&gt;
+                &lt;textarea placeholder="Your Message"&gt;&lt;/textarea&gt;
+                &lt;button type="submit"&gt;Send Message&lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>contact-1</p>
+                <div class="copy-container">
+                    <pre>
+
+.contact{
+    padding:80px 20px;
+}
+
+.contact-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+}
+
+.contact-info h2,
+.contact-form h2{
+    margin-bottom:20px;
+}
+
+.contact-info p{
+    color:#555;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.info-item{
+    margin-bottom:16px;
+}
+
+.info-item strong{
+    display:block;
+    margin-bottom:5px;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    resize:vertical;
+    min-height:140px;
+}
+
+.contact-form button{
+    padding:14px;
+    border:none;
+    background:#111;
+    color:#fff;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.contact-form button:hover{
+    opacity:.9;
+}
+
+@media (max-width:768px){
+
+    .contact-container{
+        grid-template-columns:1fr;
+        padding:25px;
+    }
+
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- contact-2 -->
+        <section class="container" id="contact2" >
+            <h2 class="title">contact-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\21 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\21 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\21 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/4</h5><img src="images\21 (4).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>contact-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="contact"&gt;
+
+    &lt;div class="contact-container"&gt;
+
+        &lt;div class="contact-header"&gt;
+            &lt;h2&gt;Contact Us&lt;/h2&gt;
+            &lt;p&gt;Fill out the form and we'll get back to you shortly.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;form class="contact-form"&gt;
+
+            &lt;input type="text" placeholder="Name"&gt;
+
+            &lt;input type="email" placeholder="Email"&gt;
+
+            &lt;textarea placeholder="Message"&gt;&lt;/textarea&gt;
+
+            &lt;button type="submit"&gt;
+                Send Message
+            &lt;/button&gt;
+
+        &lt;/form&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>contact-2</p>
+                <div class="copy-container">
+                    <pre>
+
+.contact{
+    padding:80px 20px;
+}
+
+.contact-container{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+}
+
+.contact-header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.contact-header h2{
+    margin-bottom:10px;
+}
+
+.contact-header p{
+    color:#666;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    min-height:150px;
+    resize:vertical;
+}
+
+.contact-form button{
+    padding:14px;
+    border:none;
+    background:#111;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.contact-form button:hover{
+    opacity:.9;
+}
+
+@media (max-width:600px){
+
+    .contact-container{
+        padding:25px;
+    }
+
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- blog-1 -->
+        <section class="container" id="blog1" >
+            <h2 class="title">blog-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/8</h5><img src="images\22 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/8</h5><img src="images\22 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/8</h5><img src="images\22 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/8</h5><img src="images\22 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/8</h5><img src="images\22 (5).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>6/8</h5><img src="images\22 (6).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>7/8</h5><img src="images\22 (7).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>8/8</h5><img src="images\22 (8).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>blog-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="blog-grid-section"&gt;
+    &lt;div class="container"&gt;
+
+        &lt;div class="section-title"&gt;
+            &lt;h2&gt;Latest Articles&lt;/h2&gt;
+            &lt;p&gt;Insights, tutorials and industry updates.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="blog-grid"&gt;
+
+            &lt;article class="blog-card"&gt;
+                &lt;img src="https://picsum.photos/600/400?1" alt=""&gt;
+                &lt;div class="blog-content"&gt;
+                    &lt;div class="blog-meta"&gt;May 15, 2026 • 5 min read&lt;/div&gt;
+                    &lt;h3&gt;How to Build Better Websites&lt;/h3&gt;
+                    &lt;p&gt;Learn the key principles behind modern responsive web design.&lt;/p&gt;
+                    &lt;a href="#" class="blog-btn"&gt;Read More →&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+
+            &lt;article class="blog-card"&gt;
+                &lt;img src="https://picsum.photos/600/400?2" alt=""&gt;
+                &lt;div class="blog-content"&gt;
+                    &lt;div class="blog-meta"&gt;May 20, 2026 • 7 min read&lt;/div&gt;
+                    &lt;h3&gt;UI Trends for Modern Businesses&lt;/h3&gt;
+                    &lt;p&gt;Explore design patterns that improve engagement and conversions.&lt;/p&gt;
+                    &lt;a href="#" class="blog-btn"&gt;Read More →&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+
+            &lt;article class="blog-card"&gt;
+                &lt;img src="https://picsum.photos/600/400?3" alt=""&gt;
+                &lt;div class="blog-content"&gt;
+                    &lt;div class="blog-meta"&gt;May 25, 2026 • 6 min read&lt;/div&gt;
+                    &lt;h3&gt;Speed Optimization Guide&lt;/h3&gt;
+                    &lt;p&gt;Practical tips to make websites load faster and rank better.&lt;/p&gt;
+                    &lt;a href="#" class="blog-btn"&gt;Read More →&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/article&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>blog-1</p>
+                <div class="copy-container">
+                    <pre>
+
+.container{
+    width:min(1200px, 90%);
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:3rem;
+}
+
+.section-title h2{
+    font-size:2rem;
+    margin-bottom:.5rem;
+}
+
+.section-title p{
+    color:#666;
+}
+
+/* =========================
+VARIANT 1
+3 CARD GRID
+========================= */
+
+.blog-grid-section{
+    padding:80px 0;
+}
+
+.blog-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.blog-card{
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.blog-card:hover{
+    transform:translateY(-5px);
+}
+
+.blog-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.blog-content{
+    padding:20px;
+}
+
+.blog-meta{
+    font-size:.9rem;
+    color:#777;
+    margin-bottom:10px;
+}
+
+.blog-content h3{
+    margin-bottom:10px;
+    font-size:1.25rem;
+}
+
+.blog-content p{
+    color:#555;
+    margin-bottom:15px;
+}
+
+.blog-btn{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+    .blog-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .blog-layout{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:768px){
+
+    .blog-grid{
+        grid-template-columns:1fr;
+    }
+
+    .featured-post img{
+        height:250px;
+    }
+
+    .small-post{
+        flex-direction:column;
+    }
+
+    .small-post img{
+        width:100%;
+        height:180px;
+    }
+
+    .section-title h2{
+        font-size:1.75rem;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- blog-2 -->
+        <section class="container" id="blog2" >
+            <h2 class="title">blog-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/6</h5><img src="images\23 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/6</h5><img src="images\23 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/6</h5><img src="images\23 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/6</h5><img src="images\23 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/6</h5><img src="images\23 (5).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>6/6</h5><img src="images\23 (6).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>blog-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="blog-featured-section"&gt;
+    &lt;div class="container"&gt;
+
+        &lt;div class="section-title"&gt;
+            &lt;h2&gt;From Our Blog&lt;/h2&gt;
+            &lt;p&gt;Featured insights and recent updates.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="blog-layout"&gt;
+
+            &lt;!-- Featured Post --&gt;
+
+            &lt;article class="featured-post"&gt;
+
+                &lt;img src="https://picsum.photos/900/500?4" alt=""&gt;
+
+                &lt;div class="featured-content"&gt;
+                    &lt;div class="blog-meta"&gt;
+                        June 1, 2026 • 8 min read
+                    &lt;/div&gt;
+
+                    &lt;h3&gt;Complete Guide to Growing Your Online Business&lt;/h3&gt;
+
+                    &lt;p&gt;
+                        Discover proven strategies to attract customers,
+                        improve conversions and scale your business online.
+                    &lt;/p&gt;
+
+                    &lt;a href="#" class="blog-btn"&gt;
+                        Read Full Article →
+                    &lt;/a&gt;
+                &lt;/div&gt;
+
+            &lt;/article&gt;
+
+            &lt;!-- Small Posts --&gt;
+
+            &lt;div class="post-list"&gt;
+
+                &lt;article class="small-post"&gt;
+                    &lt;img src="https://picsum.photos/300/200?5" alt=""&gt;
+                    &lt;div class="small-post-content"&gt;
+                        &lt;h4&gt;Marketing Tips for Startups&lt;/h4&gt;
+                        &lt;p&gt;Quick strategies to increase visibility.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/article&gt;
+
+                &lt;article class="small-post"&gt;
+                    &lt;img src="https://picsum.photos/300/200?6" alt=""&gt;
+                    &lt;div class="small-post-content"&gt;
+                        &lt;h4&gt;Design Principles Explained&lt;/h4&gt;
+                        &lt;p&gt;Create cleaner and more effective interfaces.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/article&gt;
+
+                &lt;article class="small-post"&gt;
+                    &lt;img src="https://picsum.photos/300/200?7" alt=""&gt;
+                    &lt;div class="small-post-content"&gt;
+                        &lt;h4&gt;Website Performance Checklist&lt;/h4&gt;
+                        &lt;p&gt;Improve speed and user experience.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/article&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>blog-2</p>
+                <div class="copy-container">
+                    <pre>
+
+.container{
+    width:min(1200px, 90%);
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:3rem;
+}
+
+.section-title h2{
+    font-size:2rem;
+    margin-bottom:.5rem;
+}
+
+.section-title p{
+    color:#666;
+}
+
+
+
+
+
+.blog-featured-section{
+    padding:80px 0;
+    background:#f8f8f8;
+}
+
+.blog-layout{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+.featured-post{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    border:1px solid #e5e5e5;
+}
+
+.featured-post img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.featured-content{
+    padding:25px;
+}
+
+.featured-content h3{
+    margin-bottom:12px;
+    font-size:1.8rem;
+}
+
+.featured-content p{
+    color:#555;
+    margin-bottom:15px;
+}
+
+.post-list{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.small-post{
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    overflow:hidden;
+    display:flex;
+    gap:15px;
+    padding:12px;
+}
+
+.small-post img{
+    width:120px;
+    height:90px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.small-post-content h4{
+    margin-bottom:8px;
+    font-size:1rem;
+}
+
+.small-post-content p{
+    color:#666;
+    font-size:.9rem;
+}
+
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+    .blog-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .blog-layout{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:768px){
+
+    .blog-grid{
+        grid-template-columns:1fr;
+    }
+
+    .featured-post img{
+        height:250px;
+    }
+
+    .small-post{
+        flex-direction:column;
+    }
+
+    .small-post img{
+        width:100%;
+        height:180px;
+    }
+
+    .section-title h2{
+        font-size:1.75rem;
+    }
+}
+
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- cta-1 -->
+        <section class="container" id="cta1" >
+            <h2 class="title">cta-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/2</h5><img src="images\25 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/2</h5><img src="images\25 (2).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>cta-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="cta-centered"&gt;
+    &lt;div class="cta-container"&gt;
+        &lt;h2 class="cta-title"&gt;Ready to Get Started?&lt;/h2&gt;
+
+        &lt;p class="cta-text"&gt;
+            Join thousands of customers and start building something amazing today.
+        &lt;/p&gt;
+
+        &lt;a href="#" class="cta-btn"&gt;
+            Get Started
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>cta-1</p>
+                <div class="copy-container">
+                    <pre>
+
+.cta-centered{
+    padding:80px 20px;
+}
+
+.cta-container{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    padding:60px 30px;
+    border:1px solid #ddd;
+    border-radius:16px;
+}
+
+.cta-title{
+    font-size:clamp(2rem,4vw,3rem);
+    margin-bottom:16px;
+}
+
+.cta-text{
+    color:#666;
+    margin-bottom:30px;
+    line-height:1.6;
+}
+
+.cta-btn{
+    display:inline-block;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:8px;
+    border:1px solid #111;
+    color:#fff;
+    background:#111;
+    transition:.3s;
+}
+
+.cta-btn:hover{
+    opacity:.85;
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- cta-2 -->
+        <section class="container" id="cta2" >
+            <h2 class="title">cta-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/3</h5><img src="images\26 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/3</h5><img src="images\26 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/3</h5><img src="images\26 (3).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>cta-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="cta-split"&gt;
+    &lt;div class="cta-wrapper"&gt;
+
+        &lt;div class="cta-content"&gt;
+            &lt;h2&gt;Ready to Grow Your Business?&lt;/h2&gt;
+
+            &lt;p&gt;
+                Start today and discover how our platform can help you achieve better results.
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;a href="#" class="cta-btn"&gt;
+            Get Started
+        &lt;/a&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>cta-2</p>
+                <div class="copy-container">
+                    <pre>
+
+.cta-split{
+    padding:80px 20px;
+}
+
+.cta-wrapper{
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+
+    padding:50px;
+    border:1px solid #ddd;
+    border-radius:16px;
+}
+
+.cta-content h2{
+    font-size:clamp(2rem,4vw,3rem);
+    margin-bottom:12px;
+}
+
+.cta-content p{
+    color:#666;
+    line-height:1.6;
+}
+
+.cta-btn{
+    display:inline-block;
+    text-decoration:none;
+    padding:14px 28px;
+
+    border-radius:8px;
+    border:1px solid #111;
+
+    background:#111;
+    color:#fff;
+
+    white-space:nowrap;
+}
+
+@media (max-width:768px){
+
+    .cta-wrapper{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 25px;
+    }
+
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- footer-1 -->
+        <section class="container" id="footer1" >
+            <h2 class="title">footer-1</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\27 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\27 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\27 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/4</h5><img src="images\27 (4).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>footer-1</p>
+                <div class="copy-container">
+                    <pre>
+&lt;footer class="footer"&gt;
+
+    &lt;div class="footer-container"&gt;
+
+        &lt;div&gt;
+            &lt;div class="footer-logo"&gt;Brand&lt;/div&gt;
+
+            &lt;p class="footer-text"&gt;
+                Build modern websites with reusable components
+                and scalable design systems.
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h3 class="footer-title"&gt;Company&lt;/h3&gt;
+
+            &lt;ul class="footer-links"&gt;
+                &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Careers&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h3 class="footer-title"&gt;Resources&lt;/h3&gt;
+
+            &lt;ul class="footer-links"&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Docs&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Help Center&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Support&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;div&gt;
+            &lt;h3 class="footer-title"&gt;Legal&lt;/h3&gt;
+
+            &lt;ul class="footer-links"&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Privacy&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Terms&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Cookies&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;License&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class="footer-bottom"&gt;
+        © 2026 Brand. All rights reserved.
+    &lt;/div&gt;
+
+&lt;/footer&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>footer-1</p>
+                <div class="copy-container">
+                    <pre>
+.footer{
+    background:#111;
+    color:#fff;
+    padding:70px 20px 30px;
+}
+
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:40px;
+}
+
+.footer-logo{
+    font-size:1.8rem;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.footer-text{
+    color:#bdbdbd;
+    line-height:1.7;
+}
+
+.footer-title{
+    margin-bottom:20px;
+    font-size:1rem;
+}
+
+.footer-links{
+    list-style:none;
+}
+
+.footer-links li{
+    margin-bottom:12px;
+}
+
+.footer-links a{
+    color:#bdbdbd;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+
+.footer-bottom{
+    border-top:1px solid #333;
+    margin-top:50px;
+    padding-top:25px;
+    text-align:center;
+    color:#999;
+    font-size:.9rem;
+}
+
+/* Tablet */
+@media(max-width:768px){
+
+    .footer-container{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+/* Mobile */
+@media(max-width:576px){
+
+    .footer{
+        text-align:center;
+    }
+
+    .footer-container{
+        grid-template-columns:1fr;
+    }
+
+}
+
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- footer-2 -->
+        <section class="container" id="footer2" >
+            <h2 class="title">footer-2</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/3</h5><img src="images\28 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/3</h5><img src="images\28 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/3</h5><img src="images\28 (3).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>footer-2</p>
+                <div class="copy-container">
+                    <pre>
+&lt;footer class="footer"&gt;
+
+    &lt;div class="footer-container"&gt;
+
+        &lt;div class="footer-logo"&gt;
+            Brand
+        &lt;/div&gt;
+
+        &lt;div class="footer-copy"&gt;
+            © 2026 Brand. All rights reserved.
+        &lt;/div&gt;
+
+        &lt;div class="footer-social"&gt;
+            &lt;a href="#"&gt;FB&lt;/a&gt;
+            &lt;a href="#"&gt;IG&lt;/a&gt;
+            &lt;a href="#"&gt;X&lt;/a&gt;
+            &lt;a href="#"&gt;LN&lt;/a&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/footer&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>footer-2</p>
+                <div class="copy-container">
+                    <pre>
+
+
+.footer{
+    background:#111;
+    color:#fff;
+    padding:25px 20px;
+}
+
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.footer-logo{
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+.footer-copy{
+    color:#bdbdbd;
+    text-align:center;
+}
+
+.footer-social{
+    display:flex;
+    gap:15px;
+}
+
+.footer-social a{
+    color:#fff;
+    text-decoration:none;
+    font-size:1.1rem;
+    transition:.3s;
+}
+
+.footer-social a:hover{
+    opacity:.7;
+}
+
+/* Mobile */
+@media(max-width:576px){
+
+    .footer-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- testimonals -->
+        <section class="container" id="testimonals" >
+            <h2 class="title">testimonals</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/4</h5><img src="images\24 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/4</h5><img src="images\24 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/4</h5><img src="images\24 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/4</h5><img src="images\24 (4).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>testimonals</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="testimonials-grid"&gt;
+
+    &lt;h2 class="section-title"&gt;What Clients Say&lt;/h2&gt;
+
+    &lt;p class="section-subtitle"&gt;
+        Trusted by businesses and individuals worldwide.
+    &lt;/p&gt;
+
+    &lt;div class="testimonial-cards"&gt;
+
+        &lt;div class="testimonial-card"&gt;
+            &lt;p&gt;
+                The service exceeded our expectations. The process was
+                smooth, professional, and delivered outstanding results.
+            &lt;/p&gt;
+
+            &lt;div class="client"&gt;
+                &lt;div class="avatar"&gt;&lt;/div&gt;
+
+                &lt;div class="client-info"&gt;
+                    &lt;h4&gt;John Smith&lt;/h4&gt;
+                    &lt;span&gt;Business Owner&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="testimonial-card"&gt;
+            &lt;p&gt;
+                Excellent communication and attention to detail.
+                Everything was completed on time and with great quality.
+            &lt;/p&gt;
+
+            &lt;div class="client"&gt;
+                &lt;div class="avatar"&gt;&lt;/div&gt;
+
+                &lt;div class="client-info"&gt;
+                    &lt;h4&gt;Sarah Johnson&lt;/h4&gt;
+                    &lt;span&gt;Marketing Manager&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="testimonial-card"&gt;
+            &lt;p&gt;
+                Highly recommended. The team understood our requirements
+                and delivered exactly what we needed.
+            &lt;/p&gt;
+
+            &lt;div class="client"&gt;
+                &lt;div class="avatar"&gt;&lt;/div&gt;
+
+                &lt;div class="client-info"&gt;
+                    &lt;h4&gt;Michael Lee&lt;/h4&gt;
+                    &lt;span&gt;Startup Founder&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!-- =========================
+     VARIANT 2 - FEATURED
+========================= --&gt;
+
+&lt;section class="testimonial-featured"&gt;
+
+    &lt;h2 class="section-title"&gt;Customer Testimonial&lt;/h2&gt;
+
+    &lt;p class="section-subtitle"&gt;
+        A highlighted review from one of our valued customers.
+    &lt;/p&gt;
+
+    &lt;div class="featured-box"&gt;
+
+        &lt;p class="featured-text"&gt;
+            "Working with this team was one of the best decisions for our
+            business. Their expertise, dedication, and support helped us
+            achieve significant growth in a short period of time."
+        &lt;/p&gt;
+
+        &lt;div class="featured-client"&gt;
+
+            &lt;div class="featured-avatar"&gt;&lt;/div&gt;
+
+            &lt;h4&gt;Emily Carter&lt;/h4&gt;
+
+            &lt;span&gt;CEO, Growth Company&lt;/span&gt;
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>testimonals</p>
+                <div class="copy-container">
+                    <pre>
+section{
+    padding:80px 5%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#666;
+    max-width:700px;
+    margin:0 auto 50px;
+}
+
+/* =========================
+   VARIANT 1 - CARD GRID
+========================= */
+
+.testimonials-grid{
+    background:white;
+}
+
+.testimonial-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.testimonial-card{
+    background:#fafafa;
+    border:1px solid #e5e5e5;
+    padding:30px;
+    border-radius:12px;
+}
+
+.testimonial-card p{
+    color:#555;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.client{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.avatar{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#ddd;
+}
+
+.client-info h4{
+    margin-bottom:4px;
+}
+
+.client-info span{
+    font-size:14px;
+    color:#777;
+}
+
+/* =========================
+   VARIANT 2 - FEATURED
+========================= */
+
+.testimonial-featured{
+    background:#ffffff;
+}
+
+.featured-box{
+    max-width:900px;
+    margin:auto;
+    background:#fafafa;
+    border:1px solid #e5e5e5;
+    padding:50px;
+    border-radius:16px;
+    text-align:center;
+}
+
+.featured-text{
+    font-size:22px;
+    line-height:1.8;
+    color:#444;
+    margin-bottom:35px;
+}
+
+.featured-client{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+}
+
+.featured-avatar{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    background:#ddd;
+}
+
+.featured-client h4{
+    font-size:20px;
+}
+
+.featured-client span{
+    color:#777;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    section {
+        padding: 60px 5%;
+    }
+
+    .testimonial-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-box {
+        padding: 40px 30px;
+    }
+
+    .featured-text {
+        font-size: 20px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .testimonial-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .featured-box {
+        padding: 30px 20px;
+    }
+
+    .featured-text {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .featured-avatar {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    section {
+        padding: 50px 4%;
+    }
+
+    .testimonial-card {
+        padding: 20px;
+    }
+
+    .client {
+        gap: 10px;
+    }
+
+    .avatar {
+        width: 45px;
+        height: 45px;
+    }
+
+    .featured-box {
+        padding: 25px 15px;
+    }
+
+    .featured-text {
+        font-size: 16px;
+    }
+
+    .featured-client h4 {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+}
+
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- faq -->
+        <section class="container" id="faq" >
+            <h2 class="title">faq</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/5</h5><img src="images\29 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/5</h5><img src="images\29 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/5</h5><img src="images\29 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/5</h5><img src="images\29 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/5</h5><img src="images\29 (5).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>faq</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="faq"&gt;
+    &lt;div class="faq-container"&gt;
+
+        &lt;div class="faq-header"&gt;
+            &lt;h2&gt;Frequently Asked Questions&lt;/h2&gt;
+            &lt;p&gt;Find answers to common questions.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;details class="faq-item"&gt;
+            &lt;summary&gt;What services do you offer?&lt;/summary&gt;
+            &lt;div class="faq-answer"&gt;
+                We provide web design, development, and digital solutions tailored to your business needs.
+            &lt;/div&gt;
+        &lt;/details&gt;
+
+        &lt;details class="faq-item"&gt;
+            &lt;summary&gt;How long does a project take?&lt;/summary&gt;
+            &lt;div class="faq-answer"&gt;
+                Project timelines vary depending on scope, but most websites are completed within 2–6 weeks.
+            &lt;/div&gt;
+        &lt;/details&gt;
+
+        &lt;details class="faq-item"&gt;
+            &lt;summary&gt;Do you provide support after launch?&lt;/summary&gt;
+            &lt;div class="faq-answer"&gt;
+                Yes, we offer ongoing maintenance and support plans after your website goes live.
+            &lt;/div&gt;
+        &lt;/details&gt;
+
+        &lt;details class="faq-item"&gt;
+            &lt;summary&gt;Can I request custom features?&lt;/summary&gt;
+            &lt;div class="faq-answer"&gt;
+                Absolutely. We can build custom functionality based on your specific requirements.
+            &lt;/div&gt;
+        &lt;/details&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>faq</p>
+                <div class="copy-container">
+                    <pre>
+
+.faq{
+    padding:80px 5%;
+}
+
+.faq-container{
+    max-width:800px;
+    margin:auto;
+}
+
+.faq-header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.faq-header h2{
+    font-size:2.2rem;
+    margin-bottom:10px;
+}
+
+.faq-header p{
+    color:#666;
+}
+
+.faq-item{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:10px;
+    margin-bottom:15px;
+    overflow:hidden;
+}
+
+.faq-item summary{
+    list-style:none;
+    cursor:pointer;
+    padding:20px;
+    font-size:1.1rem;
+    font-weight:600;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.faq-item summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-item summary::after{
+    content:"+";
+    font-size:1.5rem;
+    transition:0.3s;
+}
+
+.faq-item[open] summary::after{
+    content:"−";
+}
+
+.faq-answer{
+    padding:0 20px 20px;
+    color:#555;
+    line-height:1.6;
+}
+
+/* Responsive */
+@media (max-width:768px){
+
+    .faq{
+        padding:60px 5%;
+    }
+
+    .faq-header h2{
+        font-size:1.8rem;
+    }
+
+    .faq-item summary{
+        font-size:1rem;
+        padding:18px;
+    }
+
+    .faq-answer{
+        font-size:0.95rem;
+    }
+}
+
+@media (max-width:480px){
+
+    .faq-header h2{
+        font-size:1.5rem;
+    }
+
+    .faq-item summary{
+        padding:16px;
+    }
+
+    .faq-answer{
+        padding:0 16px 16px;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- pricing -->
+        <section class="container" id="pricing" >
+            <h2 class="title">pricing</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/6</h5><img src="images\30 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/6</h5><img src="images\30 (2).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>3/6</h5><img src="images\30 (3).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>4/6</h5><img src="images\30 (4).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>5/6</h5><img src="images\30 (5).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>6/6</h5><img src="images\30 (6).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>pricing</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="pricing"&gt;
+
+    &lt;div class="pricing-header"&gt;
+        &lt;h2&gt;Simple Pricing&lt;/h2&gt;
+        &lt;p&gt;Choose the plan that fits your needs.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="pricing-grid"&gt;
+
+        &lt;div class="pricing-card"&gt;
+            &lt;h3&gt;Basic&lt;/h3&gt;
+
+            &lt;div class="price"&gt;
+                $19&lt;span&gt;/month&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;ul class="features"&gt;
+                &lt;li&gt;1 User&lt;/li&gt;
+                &lt;li&gt;5 Projects&lt;/li&gt;
+                &lt;li&gt;Email Support&lt;/li&gt;
+                &lt;li&gt;Basic Analytics&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;button class="btn"&gt;Get Started&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;div class="pricing-card featured"&gt;
+            &lt;h3&gt;Pro&lt;/h3&gt;
+
+            &lt;div class="price"&gt;
+                $49&lt;span&gt;/month&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;ul class="features"&gt;
+                &lt;li&gt;10 Users&lt;/li&gt;
+                &lt;li&gt;Unlimited Projects&lt;/li&gt;
+                &lt;li&gt;Priority Support&lt;/li&gt;
+                &lt;li&gt;Advanced Analytics&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;button class="btn"&gt;Get Started&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;div class="pricing-card"&gt;
+            &lt;h3&gt;Enterprise&lt;/h3&gt;
+
+            &lt;div class="price"&gt;
+                $99&lt;span&gt;/month&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;ul class="features"&gt;
+                &lt;li&gt;Unlimited Users&lt;/li&gt;
+                &lt;li&gt;Unlimited Projects&lt;/li&gt;
+                &lt;li&gt;Dedicated Support&lt;/li&gt;
+                &lt;li&gt;Custom Solutions&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;button class="btn"&gt;Contact Sales&lt;/button&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>pricing</p>
+                <div class="copy-container">
+                    <pre>
+
+.pricing{
+    padding:80px 5%;
+}
+
+.pricing-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.pricing-header h2{
+    font-size:40px;
+    margin-bottom:12px;
+}
+
+.pricing-header p{
+    color:#666;
+    max-width:600px;
+    margin:auto;
+}
+
+.pricing-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.pricing-card{
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:40px 30px;
+}
+
+.pricing-card h3{
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.price{
+    font-size:48px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.price span{
+    font-size:16px;
+    font-weight:normal;
+    color:#666;
+}
+
+.features{
+    list-style:none;
+    margin-bottom:30px;
+}
+
+.features li{
+    padding:10px 0;
+    border-bottom:1px solid #eee;
+}
+
+.btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:black;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.featured{
+    background:black;
+    color:white;
+    transform:scale(1.05);
+}
+
+.featured .price span{
+    color:#ccc;
+}
+
+.featured .features li{
+    border-color:rgba(255,255,255,0.15);
+}
+
+.featured .btn{
+    background:white;
+    color:black;
+}
+/* Tablet */
+@media (max-width: 992px){
+
+    .pricing-grid{
+        grid-template-columns:1fr;
+        max-width:500px;
+        margin:auto;
+    }
+
+    .featured{
+        transform:none;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 576px){
+
+    .pricing{
+        padding:60px 20px;
+    }
+
+    .pricing-header h2{
+        font-size:32px;
+    }
+
+    .pricing-card{
+        padding:30px 20px;
+    }
+
+    .price{
+        font-size:40px;
+    }
+
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+         <!-- statistics -->
+        <section class="container" id="statistics" >
+            <h2 class="title">statistics</h2>
+
+            <div class="block">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade"><h5>1/2</h5><img src="images\31 (1).png" style="width:100%"></div>
+                    
+                    <div class="mySlides fade"><h5>2/2</h5><img src="images\31 (2).png" style="width:100%"></div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+            </div>
+
+
+            <div class="code">
+                <h3>html</h3><br><p>statistics</p>
+                <div class="copy-container">
+                    <pre>
+&lt;section class="statistics"&gt;
+    &lt;div class="statistics-container"&gt;
+
+        &lt;div class="stat-item"&gt;
+            &lt;div class="stat-number"&gt;100+&lt;/div&gt;
+            &lt;div class="stat-label"&gt;Clients&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="stat-item"&gt;
+            &lt;div class="stat-number"&gt;50+&lt;/div&gt;
+            &lt;div class="stat-label"&gt;Projects&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class="stat-item"&gt;
+            &lt;div class="stat-number"&gt;99%&lt;/div&gt;
+            &lt;div class="stat-label"&gt;Satisfaction&lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/section&gt;
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+            <div class="code">
+                <h3>css</h3><br><p>statistics</p>
+                <div class="copy-container">
+                    <pre>
+
+/* Statistics Section */
+.statistics{
+    padding:80px 5%;
+}
+
+.statistics-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+    text-align:center;
+}
+
+.stat-item{
+    padding:24px;
+}
+
+.stat-number{
+    font-size:48px;
+    font-weight:700;
+    line-height:1;
+    margin-bottom:12px;
+}
+
+.stat-label{
+    font-size:18px;
+    color:#666;
+}
+
+@media (max-width:768px){
+    .statistics-container{
+        grid-template-columns:1fr;
+        gap:32px;
+    }
+}
+                    </pre>
+                    <button class="copy-btn">Copy</button>
+                </div>
+            </div>
+
+        </section>
+        
+
+
+
+        
+    <!-- footer section-->
+        <footer class="footer" id="footer">
+
+            <div class="footer-container">
+
+                <div>
+                    <div class="footer-logo">JVW Frontend Library</div>
+
+                    <p class="footer-text">
+                        Reusable responsive website sections for rapid frontend development.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Components</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#navbar1">Navigation</a></li>
+                        <li><a href="#hero1">Hero</a></li>
+                        <li><a href="#services1">Services</a></li>
+                        <li><a href="#features1">Features</a></li>
+                        <li><a href="#contact1">Contact</a></li>
+                        <li><a href="#blog1">Blog</a></li>
+                        <li><a href="#cta1">CTA</a></li>
+                        <li><a href="#footer1">Footer</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Resources</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/jwagh8237">GitHub</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title">Tech</h3>
+
+                    <ul class="footer-links">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 JWAGH Frontend Library Built by Jagdish
+            </div>
+
+        </footer>
+           
+        
+
+    </body>
+</html> 
